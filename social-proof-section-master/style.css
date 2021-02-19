@@ -1,0 +1,175 @@
+body {
+  font-size: 12px;
+  font-family: 'Spartan', sans-serif;
+  background-image: url("images/bg-pattern-top-mobile.svg"), url("images/bg-pattern-bottom-mobile.svg");
+  background-repeat: no-repeat;
+}
+
+.heading {
+  color: hsl(300, 43%, 22%);
+  text-align: center;
+  font-weight: 700;
+}
+
+.customer-service {
+  color: hsl(303, 10%, 53%);
+  text-align: center;
+}
+
+.rate-reviews {
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  width: 240px;
+  text-align: center;
+  padding: 10px 30px 10px 30px;
+}
+
+.stars {
+  color: hsl(300, 43%, 22%);
+  margin: auto;
+  width: 185px;
+  padding-top: 10px;
+}
+
+.star-image {
+  width: 70px;
+  margin: auto;
+}
+
+.review {
+  background-color: hsl(300, 43%, 22%);
+  width: 300px;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.name {
+  color: #fff;
+  display: inline-block;
+  height: 5px;
+  margin-left: 30px;
+  margin-top: 45px;
+}
+
+.verified {
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.review-text {
+  color: #fff;
+  display: inline-block;
+  padding: 5px 30px 20px 20px;
+}
+
+.review-image {
+  border-radius: 50%;
+  width: 10%;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 45px;
+  float: left;
+}
+
+.attribution {
+  text-align: center;
+}
+
+@media (min-width:375px) {
+  body {
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    background-image: url("images/bg-pattern-top-desktop.svg"), url("images/bg-pattern-bottom-desktop.svg");
+    padding: 200px;
+  }
+
+  .heading {
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    text-align: left;
+    display: inline-block;
+    width: 300px;
+    height: 90px;
+  }
+
+  .customer-service {
+    color: hsl(303, 10%, 53%);
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+  }
+
+  .rate-reviews {
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 25px;
+    border-radius: 10px;
+    width: 500px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    text-align: initial;
+  }
+
+  .rate-positioned-1 {     /*position of the boxes with rates*/
+    position: relative;
+    left: 265px;
+    bottom: 130px;
+  }
+
+  .rate-positioned-2 {     /*position of the boxes with rates*/
+    position: relative;
+    left: -200px;
+    bottom: 70px;
+  }
+
+  .rate-positioned-3 {    /*position of the boxes with rates*/
+    position: relative;
+    left: 765px;
+    bottom: 70px;
+  }
+
+  .star-image {
+    position: relative;
+    top: 15px;
+    left: 75px;
+  }
+
+  .stars {
+    width: 250px;
+    position: relative;
+    bottom: 15px;
+    left: 65px;
+    color: #502050;
+  }
+
+  .review {
+    background-color: hsl(300, 43%, 22%);
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+   .review-positioned-1 {       /*position of the boxes with reviews*/
+    position: relative;
+    bottom: 230px;
+    left: 434px;
+  }
+
+  .review-positioned-2 {        /*position of the boxes with reviews*/
+    position: relative;
+    bottom: 460px;
+    left: 870px;
+  }
+
+  .attribution {
+    text-align: center;
+  }
+}
